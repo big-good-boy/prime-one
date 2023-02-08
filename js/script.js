@@ -1,0 +1,1 @@
+$(".header-menu__icon").click((function(s){$(this).toggleClass("active"),$(".header-menu").toggleClass("active"),$(this).hasClass("active")&&$("body").data("scroll",$(window).scrollTop()),$("body").toggleClass("lock"),$(this).hasClass("active")||$("body, html").scrollTop(parseInt($("body").data("scroll")))}));
